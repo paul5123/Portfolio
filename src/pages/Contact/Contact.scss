@@ -81,4 +81,34 @@
       }
     }
   }
+
+  @media (max-width: 1024px) {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
+  @media (max-width: 767px) {
+    padding: 64px 20px;
+    overflow-wrap: break-word;
+
+    &__form {
+      min-width: 0;
+
+      input,
+      textarea {
+        min-width: 0;
+        max-width: 100%;
+      }
+
+      button {
+        align-self: stretch;
+        width: 100%;
+      }
+    }
+
+    &__links {
+      flex-wrap: wrap;
+      gap: 16px 24px;
+    }
+  }
 }

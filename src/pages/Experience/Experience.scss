@@ -51,4 +51,39 @@
       color: var(--text-secondary);
     }
   }
+
+  @media (max-width: 1024px) {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
+  @media (max-width: 767px) {
+    padding: 64px 20px;
+    overflow-wrap: break-word;
+
+    > h1 {
+      margin-bottom: 40px;
+    }
+
+    &__timeline {
+      padding-left: 24px;
+
+      &::before {
+        top: 5px;
+        left: 5px;
+      }
+    }
+
+    &__step {
+      min-width: 0;
+      margin-bottom: 40px;
+
+      &::before {
+        top: 5px;
+        left: -24px;
+        width: 10px;
+        height: 10px;
+      }
+    }
+  }
 }
