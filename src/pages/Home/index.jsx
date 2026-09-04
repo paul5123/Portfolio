@@ -1,5 +1,15 @@
+import Hero from "../../components/Hero";
+import Projects from "../../components/Projects";
+import Skills from "../../components/Skills";
+
 function Home() {
-  return <h1>Accueil</h1>;
+  return (
+    <>
+      <Hero />
+      <Projects />
+      <Skills />
+    </>
+  );
 }
 
 export default Home;
