@@ -58,10 +58,32 @@
         transform 0.2s ease,
         filter 0.2s ease;
 
-      &:hover {
+      &:not(:disabled):hover {
         transform: translateY(-2px);
         filter: brightness(1.1);
       }
+
+      &:disabled {
+        opacity: 0.65;
+        cursor: not-allowed;
+      }
+    }
+  }
+
+  &__status {
+    margin: 0;
+    padding: 12px 14px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background-color: var(--surface);
+    color: var(--text-primary);
+
+    &--success {
+      border-color: var(--accent);
+    }
+
+    &--error {
+      border-color: var(--accent);
     }
   }
 
