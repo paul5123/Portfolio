@@ -1,0 +1,124 @@
+[
+  {
+    "id": "booki",
+    "title": "Booki",
+    "subtitle": "Page d'accueil d'une agence de voyage avec HTML & CSS",
+    "image": "/images/projects/booki.webp",
+    "technologies": ["HTML5", "CSS3", "Git", "GitHub", "Figma"],
+    "context": "J’ai réalisé ce projet dans le cadre de ma formation OpenClassrooms. Je devais intégrer la page d’accueil de Booki, une agence de voyage permettant aux utilisateurs de rechercher des hébergements et des activités, à partir de maquettes fournies.",
+    "objectives": "Intégrer une page web à partir de maquettes en utilisant HTML et CSS, reproduire fidèlement les différentes sections de l’interface et rendre la page responsive afin qu’elle s’adapte aux versions desktop, tablette et mobile.",
+    "skills": [
+      "Découvrir les bases du développement web et comprendre le rôle respectif de HTML et CSS.",
+      "Structurer le contenu d’une page avec HTML et mettre en forme son interface avec CSS.",
+      "Utiliser Figma pour consulter et comprendre une maquette avant son intégration.",
+      "Reproduire une interface à partir de maquettes desktop, tablette et mobile.",
+      "Découvrir Git et GitHub pour versionner le code et publier un projet sur un dépôt distant.",
+      "Mettre en pratique les premières notions de responsive design pour adapter l’interface aux différentes tailles d’écran."
+    ],
+    "results": "Réalisation d’une page d’accueil responsive conforme aux maquettes fournies, avec une adaptation de l’interface aux formats desktop, tablette et mobile. Le projet m’a permis de réaliser ma première intégration complète en HTML et CSS.",
+    "improvements": "Le projet actuel se limite à l’intégration d’une page d’accueil et ne possède pas de véritables fonctionnalités. Une première évolution serait de rendre les cartes d’hébergement interactives et de créer une page de détail pour chaque hébergement, accessible lorsque l’utilisateur clique sur une carte. À plus long terme, le site pourrait évoluer vers une véritable plateforme de recherche et de réservation d’hébergements.",
+    "github": "https://github.com/paul5123/Booki"
+  },
+  {
+    "id": "sophie-bluel",
+    "title": "Sophie Bluel",
+    "subtitle": "Page web dynamique avec JavaScript",
+    "image": "/images/projects/sophie-bluel.webp",
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Fetch API",
+      "Git",
+      "GitHub"
+    ],
+    "context": "J’ai réalisé ce projet dans le cadre de ma formation OpenClassrooms. Je devais intervenir sur le portfolio de Sophie Bluel, architecte d’intérieur, afin de transformer une page statique existante en une application web dynamique communiquant avec une API.",
+    "objectives": "Rendre le portfolio dynamique avec JavaScript en récupérant les projets depuis une API, permettre leur filtrage par catégorie et développer une interface d’administration. Celle-ci doit permettre à l’administrateur de se connecter puis d’ajouter et de supprimer des projets depuis une fenêtre modale, avec une mise à jour dynamique de l’interface.",
+    "skills": [
+      "Utiliser JavaScript pour rendre une page web dynamique en modifiant le DOM.",
+      "Comprendre le principe d’une API et communiquer avec celle-ci depuis le front-end grâce à fetch.",
+      "Récupérer des données depuis une API et les afficher dynamiquement dans l’interface.",
+      "Créer et gérer une fenêtre modale avec JavaScript.",
+      "Comprendre le fonctionnement d’un token d’authentification et l’utiliser pour gérer les fonctionnalités réservées à l’administrateur.",
+      "Mettre à jour dynamiquement l’interface après l’ajout ou la suppression d’un projet, sans recharger la page."
+    ],
+    "results": "Développement d’un portfolio dynamique communiquant avec une API. L’application permet d’afficher et de filtrer les projets de l’architecte, d’authentifier un administrateur et, une fois connecté, d’ajouter ou de supprimer des projets depuis une fenêtre modale. Les modifications sont répercutées dynamiquement dans l’interface sans nécessiter de rechargement de la page.",
+    "improvements": "Certaines fonctionnalités suggérées par l’interface ne sont pas encore fonctionnelles. Une évolution du projet serait donc de rendre le formulaire de contact fonctionnel afin que les messages puissent réellement être envoyés, de connecter l’icône Instagram au compte de l’architecte et de créer une page de mentions légales reliée au lien présent dans le footer. Cela permettrait de rendre le portfolio plus complet et d’éviter la présence d’éléments interactifs qui n’aboutissent actuellement à aucune action.",
+    "github": "https://github.com/paul5123/Sophie-Bluel"
+  },
+  {
+    "id": "nina-carducci",
+    "title": "Nina Carducci",
+    "subtitle": "Débuggez et optimisez un site de photographe",
+    "image": "/images/projects/nina-carducci.webp",
+    "technologies": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Lighthouse",
+      "WAVE",
+      "Schema.org",
+      "Git",
+      "GitHub"
+    ],
+    "context": "J’ai réalisé ce projet dans le cadre de ma formation OpenClassrooms. Je devais intervenir sur le site existant d’une photographe afin de corriger ses bugs et d’améliorer ses performances, son référencement SEO et son accessibilité.",
+    "objectives": "Auditer puis optimiser un site existant afin d’améliorer ses performances, son SEO et son accessibilité. Optimiser notamment les images et le code, mettre en place le référencement local et les métadonnées pour les réseaux sociaux, corriger les bugs existants et mesurer l’impact des modifications avec Lighthouse et WAVE.",
+    "skills": [
+      "Comprendre les principes du référencement naturel (SEO) et la manière dont les moteurs de recherche analysent et référencent une page web.",
+      "Mettre en œuvre différentes techniques de SEO technique pour améliorer le référencement d’un site.",
+      "Comprendre les principales étapes du chargement d’une page web et identifier les éléments pouvant dégrader ses performances.",
+      "Optimiser les performances en compressant et redimensionnant les images, en allégeant ou minifiant les fichiers et en supprimant les ressources ou dépendances inutiles.",
+      "Utiliser Google Lighthouse pour analyser les performances, le SEO et l’accessibilité d’un site.",
+      "Utiliser WAVE pour identifier et corriger des problèmes d’accessibilité."
+    ],
+    "results": "Optimisation du site permettant d’obtenir, lors de l’audit Lighthouse final sur desktop : Performance : 97/100, Accessibilité : 100/100, Bonnes pratiques : 100/100 et SEO : 100/100. Le travail réalisé a notamment permis d’améliorer le chargement du site, son référencement et son accessibilité tout en corrigeant les bugs présents dans la version initiale.",
+    "improvements": "Le site utilise Bootstrap principalement pour son carrousel, ce qui ajoute une dépendance relativement importante pour une fonctionnalité limitée. Une amélioration serait de supprimer Bootstrap et de développer le carrousel directement en JavaScript afin de réduire les ressources chargées et d’alléger davantage le site.",
+    "github": "https://github.com/paul5123/Openclassrooms-projet-Nina-Carducci"
+  },
+  {
+    "id": "kasa",
+    "title": "Kasa",
+    "subtitle": "Application web de location immobilière avec React",
+    "image": "/images/projects/kasa.webp",
+    "technologies": ["React", "React Router", "Sass", "Vite"],
+    "context": "J’ai réalisé ce projet dans le cadre de ma formation OpenClassrooms. Je devais développer l’interface front-end de Kasa, une entreprise de location d’appartements entre particuliers, en utilisant React.",
+    "objectives": "Développer l’ensemble de l’application Kasa avec React à partir des maquettes Figma, en créant les composants réutilisables, la navigation avec React Router et une interface responsive conforme au design fourni. Le projet devait également respecter de bonnes pratiques de qualité de code.",
+    "skills": [
+      "Concevoir et utiliser des composants React afin de découper l’interface en éléments réutilisables.",
+      "Utiliser JSX pour construire et intégrer la structure HTML dans les composants React.",
+      "Utiliser React Router pour gérer la navigation entre les différentes pages de l’application.",
+      "Utiliser un Layout pour partager une structure commune entre plusieurs pages, notamment le header et le footer."
+    ],
+    "results": "Développement d’une application React fonctionnelle et responsive, conforme aux maquettes Figma fournies, avec une navigation entre les différentes pages et des composants réutilisables.",
+    "improvements": "Remplacer les données actuellement stockées dans un fichier JSON local par une base de données associée à une API, afin de permettre une gestion dynamique et persistante des logements.",
+    "github": "https://github.com/paul5123/kasa"
+  },
+  {
+    "id": "mon-vieux-grimoire",
+    "title": "Mon Vieux Grimoire",
+    "subtitle": "Back-end d’un site de référencement et de notation de livres",
+    "image": "/images/projects/mon-vieux-grimoire.webp",
+    "technologies": [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Mongoose",
+      "JWT",
+      "bcrypt",
+      "Multer",
+      "Sharp"
+    ],
+    "context": "J’ai réalisé ce projet dans le cadre de ma formation OpenClassrooms. Je devais développer le back-end de Mon Vieux Grimoire, un site de référencement et de notation de livres pour une petite chaîne de librairies, en collaboration avec un développeur front-end.",
+    "objectives": "Développer le back-end et l’API REST de l’application Mon Vieux Grimoire afin de permettre la gestion des livres et des utilisateurs. Mettre en place une base de données MongoDB, une authentification sécurisée, les opérations CRUD sur les livres, la gestion et l’optimisation des images ainsi qu’un système permettant aux utilisateurs de noter les livres et de calculer leur note moyenne.",
+    "skills": [
+      "Créer et configurer un serveur avec Node.js et Express.",
+      "Configurer une base de données MongoDB et communiquer avec celle-ci grâce à Mongoose.",
+      "Mettre en place une authentification sécurisée avec JWT et protéger certaines routes de l’API.",
+      "Sécuriser les mots de passe utilisateurs en les hachant avec bcrypt.",
+      "Gérer l’envoi d’images avec Multer et les traiter et optimiser avec Sharp avant leur stockage. Les fichiers images optimisés sont enregistrés côté serveur et leur URL est référencée dans les données des livres."
+    ],
+    "results": "Développement d’un back-end fonctionnel permettant au front-end fourni de communiquer avec l’API et la base de données. L’application permet notamment l’authentification des utilisateurs, la création, la consultation, la modification et la suppression de livres, la gestion des images ainsi que l’ajout de notes et le calcul de la note moyenne.",
+    "improvements": "Ajouter des fonctionnalités permettant de faciliter la recherche dans le catalogue, notamment une barre de recherche pour retrouver rapidement un livre et des filtres par genre, année et auteur afin d’affiner les résultats.",
+    "github": "https://github.com/paul5123/Dev-Web-livres"
+  }
+]
