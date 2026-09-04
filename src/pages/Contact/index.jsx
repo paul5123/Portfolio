@@ -1,6 +1,8 @@
+import "./Contact.scss";
+
 function Contact() {
   return (
-    <section>
+    <section className="contact">
       <h1>Contact</h1>
 
       <p>
@@ -8,7 +10,7 @@ function Contact() {
         N’hésitez pas à me contacter.
       </p>
 
-      <form>
+      <form className="contact__form">
         <div>
           <label htmlFor="name">Nom</label>
           <input type="text" id="name" name="name" />
@@ -27,7 +29,7 @@ function Contact() {
         <button type="submit">Envoyer</button>
       </form>
 
-      <div>
+      <div className="contact__links">
         <a
           href="https://github.com/paul5123"
           target="_blank"

@@ -1,6 +1,8 @@
+import "./About.scss";
+
 function About() {
   return (
-    <section>
+    <section className="about">
       <h1>À propos</h1>
 
       <p>

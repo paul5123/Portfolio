@@ -1,0 +1,19 @@
+.about {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 80px 48px;
+
+  h1 {
+    margin-bottom: 40px;
+    color: var(--text-primary);
+  }
+
+  p {
+    margin-bottom: 24px;
+    color: var(--text-secondary);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

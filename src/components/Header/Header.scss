@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 48px;
+  border-bottom: 1px solid var(--border);
+
+  &__brand {
+    font-family: var(--font-title);
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 32px;
+
+    a {
+      color: var(--text-secondary);
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: var(--text-primary);
+      }
+
+      &.active {
+        color: var(--accent);
+      }
+    }
+  }
+}
