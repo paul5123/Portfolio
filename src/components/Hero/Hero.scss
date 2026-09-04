@@ -49,4 +49,35 @@
       }
     }
   }
+
+  @media (max-width: 1024px) {
+    padding: 96px 32px;
+  }
+
+  @media (max-width: 767px) {
+    padding: 72px 20px;
+    overflow-wrap: break-word;
+
+    h1 {
+      font-size: 30px;
+      line-height: 1.25;
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    &__actions {
+      flex-direction: column;
+    }
+
+    &__action {
+      width: 100%;
+      text-align: center;
+    }
+  }
 }
