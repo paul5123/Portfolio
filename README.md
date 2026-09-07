@@ -1,16 +1,51 @@
-# React + Vite
+# Portfolio de Paul Guillon
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Portfolio présentant mes projets réalisés pendant ma formation de développeur web ainsi que mes compétences de développeur front-end junior.
 
-Currently, two official plugins are available:
+## Technologies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React
+- React Router
+- JavaScript
+- Sass
+- Vite
+- Formspree
+- Oxlint
 
-## React Compiler
+## Prérequis
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Node.js
+- npm
 
-## Expanding the Oxlint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+git clone https://github.com/paul5123/Portfolio.git
+cd Portfolio
+npm install
+```
+
+Créez un fichier `.env.local` à la racine du projet et ajoutez votre identifiant Formspree :
+
+```env
+VITE_FORMSPREE_FORM_ID=votre_identifiant_formspree
+```
+
+Lancez ensuite le serveur de développement :
+
+```bash
+npm run dev
+```
+
+## Commandes utiles
+
+```bash
+npm run lint
+npm run build
+npm run preview
+```
+
+## Liens
+
+- [Portfolio déployé](https://portfolio-xi-green-13.vercel.app/)
+- [LinkedIn](https://www.linkedin.com/in/paul-guillon-26648314b/)
