@@ -139,7 +139,14 @@ function Contact() {
           <span className="visually-hidden"> (nouvel onglet)</span>
         </a>
 
-        <span className="contact__link--unavailable">LinkedIn</span>
+        <a
+          href="https://www.linkedin.com/in/paul-guillon-26648314b/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+          <span className="visually-hidden"> (nouvel onglet)</span>
+        </a>
       </div>
     </section>
   );

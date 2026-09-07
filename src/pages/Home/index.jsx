@@ -1,9 +1,19 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Hero from "../../components/Hero";
 import Projects from "../../components/Projects";
 import Seo from "../../components/Seo";
 import Skills from "../../components/Skills";
 
 function Home() {
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (hash === "#projects") {
+      document.getElementById("projects")?.scrollIntoView();
+    }
+  }, [hash]);
+
   return (
     <>
       <Seo
