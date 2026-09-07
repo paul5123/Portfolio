@@ -7,13 +7,28 @@ console.log("VITE_FORMSPREE_FORM_ID:", FORMSPREE_FORM_ID);
 
 function ContactForm({ formId }) {
   const [state, handleSubmit] = useForm(formId);
+  const hasFieldError = (field) =>
+    Boolean(state.errors?.getFieldErrors(field).length);
 
   return (
-    <form className="contact__form" onSubmit={handleSubmit}>
+    <form
+      className="contact__form"
+      onSubmit={handleSubmit}
+      aria-busy={state.submitting}
+    >
       <div>
         <label htmlFor="name">Nom</label>
-        <input type="text" id="name" name="name" autoComplete="name" required />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          autoComplete="name"
+          required
+          aria-invalid={hasFieldError("name") || undefined}
+          aria-describedby={hasFieldError("name") ? "name-error" : undefined}
+        />
         <ValidationError
+          id="name-error"
           prefix="Nom :"
           field="name"
           errors={state.errors}
@@ -30,8 +45,11 @@ function ContactForm({ formId }) {
           name="email"
           autoComplete="email"
           required
+          aria-invalid={hasFieldError("email") || undefined}
+          aria-describedby={hasFieldError("email") ? "email-error" : undefined}
         />
         <ValidationError
+          id="email-error"
           prefix="Email :"
           field="email"
           errors={state.errors}
@@ -42,8 +60,18 @@ function ContactForm({ formId }) {
 
       <div>
         <label htmlFor="message">Message</label>
-        <textarea id="message" name="message" rows="6" required></textarea>
+        <textarea
+          id="message"
+          name="message"
+          rows="6"
+          required
+          aria-invalid={hasFieldError("message") || undefined}
+          aria-describedby={
+            hasFieldError("message") ? "message-error" : undefined
+          }
+        ></textarea>
         <ValidationError
+          id="message-error"
           prefix="Message :"
           field="message"
           errors={state.errors}
@@ -57,7 +85,11 @@ function ContactForm({ formId }) {
       </button>
 
       {state.succeeded === true && (
-        <p className="contact__status contact__status--success" role="status">
+        <p
+          className="contact__status contact__status--success"
+          role="status"
+          aria-atomic="true"
+        >
           Votre message a bien été envoyé. Merci !
         </p>
       )}
@@ -98,15 +130,10 @@ function Contact() {
           rel="noopener noreferrer"
         >
           GitHub
+          <span className="visually-hidden"> (nouvel onglet)</span>
         </a>
 
-        <a
-          href="LIEN_LINKEDIN"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          LinkedIn
-        </a>
+        <span className="contact__link--unavailable">LinkedIn</span>
       </div>
     </section>
   );

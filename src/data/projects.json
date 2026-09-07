@@ -4,6 +4,7 @@
     "title": "Booki",
     "subtitle": "Page d'accueil d'une agence de voyage avec HTML & CSS",
     "image": "/images/projects/booki.webp",
+    "imageAlt": "Capture de la page d’accueil de Booki avec la recherche et les cartes d’hébergements à Marseille",
     "technologies": ["HTML5", "CSS3", "Git", "GitHub", "Figma"],
     "context": "J’ai réalisé ce projet dans le cadre de ma formation OpenClassrooms. Je devais intégrer la page d’accueil de Booki, une agence de voyage permettant aux utilisateurs de rechercher des hébergements et des activités, à partir de maquettes fournies.",
     "objectives": "Intégrer une page web à partir de maquettes en utilisant HTML et CSS, reproduire fidèlement les différentes sections de l’interface et rendre la page responsive afin qu’elle s’adapte aux versions desktop, tablette et mobile.",
@@ -24,6 +25,7 @@
     "title": "Sophie Bluel",
     "subtitle": "Page web dynamique avec JavaScript",
     "image": "/images/projects/sophie-bluel.webp",
+    "imageAlt": "Capture du portfolio de Sophie Bluel présentant son portrait et sa galerie de projets",
     "technologies": [
       "HTML5",
       "CSS3",
@@ -51,6 +53,7 @@
     "title": "Nina Carducci",
     "subtitle": "Débuggez et optimisez un site de photographe",
     "image": "/images/projects/nina-carducci.webp",
+    "imageAlt": "Capture du site de Nina Carducci avec son portrait et la présentation de son activité de photographe",
     "technologies": [
       "HTML5",
       "CSS3",
@@ -80,6 +83,7 @@
     "title": "Kasa",
     "subtitle": "Application web de location immobilière avec React",
     "image": "/images/projects/kasa.webp",
+    "imageAlt": "Capture de la page d’accueil de Kasa affichant une bannière et des cartes de logements",
     "technologies": ["React", "React Router", "Sass", "Vite"],
     "context": "J’ai réalisé ce projet dans le cadre de ma formation OpenClassrooms. Je devais développer l’interface front-end de Kasa, une entreprise de location d’appartements entre particuliers, en utilisant React.",
     "objectives": "Développer l’ensemble de l’application Kasa avec React à partir des maquettes Figma, en créant les composants réutilisables, la navigation avec React Router et une interface responsive conforme au design fourni. Le projet devait également respecter de bonnes pratiques de qualité de code.",
@@ -98,6 +102,7 @@
     "title": "Mon Vieux Grimoire",
     "subtitle": "Back-end d’un site de référencement et de notation de livres",
     "image": "/images/projects/mon-vieux-grimoire.webp",
+    "imageAlt": "Capture de Mon Vieux Grimoire présentant un catalogue de livres avec leurs notes",
     "technologies": [
       "Node.js",
       "Express",

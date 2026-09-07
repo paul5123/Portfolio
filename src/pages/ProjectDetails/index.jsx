@@ -25,7 +25,7 @@ function ProjectDetails() {
       <img
         className="project-details__image"
         src={project.image}
-        alt={`Aperçu du projet ${project.title}`}
+        alt={project.imageAlt}
       />
 
       <ul className="project-details__technologies">
@@ -72,6 +72,9 @@ function ProjectDetails() {
         rel="noopener noreferrer"
       >
         Voir le projet sur GitHub
+        <span className="visually-hidden">
+          {` : ${project.title} (nouvel onglet)`}
+        </span>
       </a>
     </article>
   );

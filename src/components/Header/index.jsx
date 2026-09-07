@@ -8,7 +8,7 @@ function Header() {
         PAUL GUILLON
       </Link>
 
-      <nav className="header__nav">
+      <nav className="header__nav" aria-label="Navigation principale">
         <NavLink to="/">Accueil</NavLink>
         <NavLink to="/about">À propos</NavLink>
         <NavLink to="/experience">Parcours</NavLink>

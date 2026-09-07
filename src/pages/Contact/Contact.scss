@@ -52,7 +52,7 @@
       border: 1px solid var(--accent);
       border-radius: 6px;
       background-color: var(--accent);
-      color: var(--text-primary);
+      color: var(--background);
       cursor: pointer;
       transition:
         transform 0.2s ease,
@@ -101,6 +101,10 @@
       &:hover {
         color: var(--text-primary);
       }
+    }
+
+    .contact__link--unavailable {
+      color: var(--accent);
     }
   }
 

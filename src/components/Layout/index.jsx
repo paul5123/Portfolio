@@ -4,9 +4,13 @@ import Header from "../Header";
 function Layout() {
   return (
     <>
+      <a className="skip-link" href="#main-content">
+        Aller au contenu principal
+      </a>
+
       <Header />
 
-      <main>
+      <main id="main-content">
         <Outlet />
       </main>
     </>
