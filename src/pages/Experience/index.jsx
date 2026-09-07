@@ -1,8 +1,14 @@
 import "./Experience.scss";
+import Seo from "../../components/Seo";
 
 function Experience() {
   return (
     <section className="experience">
+      <Seo
+        title="Parcours de Paul Guillon | Développeur front-end"
+        description="Découvrez le parcours de Paul Guillon, sa reconversion et sa formation OpenClassrooms pour devenir développeur front-end junior en France."
+      />
+
       <h1>Mon parcours</h1>
 
       <div className="experience__timeline">

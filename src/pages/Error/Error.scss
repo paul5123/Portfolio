@@ -1,0 +1,27 @@
+.error-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 80px 48px;
+
+  p {
+    margin-bottom: 24px;
+  }
+
+  a {
+    color: var(--accent);
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: var(--text-primary);
+    }
+  }
+
+  @media (max-width: 1024px) {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
+  @media (max-width: 767px) {
+    padding: 64px 20px;
+  }
+}

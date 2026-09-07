@@ -1,5 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 import projects from "../../data/projects.json";
+import Seo from "../../components/Seo";
 import Error from "../Error";
 import "./ProjectDetails.scss";
 
@@ -13,6 +14,8 @@ function ProjectDetails() {
 
   return (
     <article className="project-details">
+      <Seo title={project.seoTitle} description={project.seoDescription} />
+
       <Link className="project-details__back" to="/#projects">
         Retour aux projets
       </Link>

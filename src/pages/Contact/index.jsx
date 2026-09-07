@@ -1,4 +1,5 @@
 import { useForm, ValidationError } from "@formspree/react";
+import Seo from "../../components/Seo";
 import "./Contact.scss";
 
 const FORMSPREE_FORM_ID = import.meta.env.VITE_FORMSPREE_FORM_ID;
@@ -107,6 +108,11 @@ function ContactForm({ formId }) {
 function Contact() {
   return (
     <section className="contact">
+      <Seo
+        title="Contact | Paul Guillon, développeur front-end"
+        description="Contactez Paul Guillon, développeur front-end junior en France, pour échanger sur une opportunité ou un projet de développement web."
+      />
+
       <h1>Contact</h1>
 
       <p>

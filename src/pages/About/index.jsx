@@ -1,8 +1,14 @@
 import "./About.scss";
+import Seo from "../../components/Seo";
 
 function About() {
   return (
     <section className="about">
+      <Seo
+        title="À propos de Paul Guillon | Développeur front-end"
+        description="Découvrez Paul Guillon, développeur front-end junior en France : sa reconversion, sa formation OpenClassrooms et ses compétences en développement web."
+      />
+
       <h1>À propos</h1>
 
       <p>
@@ -20,8 +26,10 @@ function About() {
       <p>
         Ma formation de développeur web chez OpenClassrooms m’a permis
         d’acquérir progressivement les bases du développement front-end,
-        de HTML et CSS jusqu’à JavaScript et React. J’ai également découvert
-        le développement back-end avec Node.js, Express et MongoDB.
+        de HTML et CSS jusqu’à JavaScript et React, avec Git pour versionner
+        mon code. J’ai également découvert le développement back-end avec
+        Node.js, Express et MongoDB, ainsi que la création et l’intégration
+        d’API REST.
       </p>
 
       <p>
@@ -35,7 +43,8 @@ function About() {
 
       <p>
         J’accorde une place importante à l’organisation de mon travail,
-        notamment à travers les principes de la méthodologie Agile. Je porte
+        notamment à travers les principes de la méthodologie Agile et les
+        bonnes pratiques qui contribuent à la qualité du code. Je porte
         également une attention particulière à la veille technologique, qui
         me permet de suivre l’évolution rapide des technologies et des outils
         du développement web et de continuer à faire évoluer mes pratiques.

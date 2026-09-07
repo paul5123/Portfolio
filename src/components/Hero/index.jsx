@@ -9,7 +9,8 @@ function Hero() {
       <h1>Développeur front-end junior</h1>
 
       <p className="hero__description">
-         Je suis développeur front-end junior, axé sur la création d’interfaces web modernes, responsives et accessibles.
+        Basé en France, je crée des interfaces web modernes, responsives et
+        accessibles.
       </p>
 
       <div className="hero__actions">
