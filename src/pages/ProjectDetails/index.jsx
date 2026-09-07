@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import projects from "../../data/projects.json";
 import Seo from "../../components/Seo";
@@ -7,6 +8,10 @@ import "./ProjectDetails.scss";
 function ProjectDetails() {
   const { id } = useParams();
   const project = projects.find((item) => item.id === id);
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0 });
+  }, [id]);
 
   if (!project) {
     return <Error />;
