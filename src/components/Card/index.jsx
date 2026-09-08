@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import "./Card.scss";
 
-function Card({ project }) {
-  const { id, image, imageAlt, title, technologies } = project;
+function Card({ project, technologies }) {
+  const { id, image, imageAlt, title } = project;
 
   return (
     <Link className="card" to={`/projects/${id}`}>
@@ -11,9 +11,14 @@ function Card({ project }) {
       <div className="card__content">
         <h3>{title}</h3>
 
-        <ul className="card__technologies">
-          {technologies.slice(0, 3).map((technology) => (
-            <li key={technology}>{technology}</li>
+        <ul
+          className="card__technologies"
+          aria-label={`Technologies utilisées pour ${title}`}
+        >
+          {technologies.map((technology) => (
+            <li key={technology.name}>
+              <img src={technology.logo} alt={technology.name} />
+            </li>
           ))}
         </ul>
       </div>

@@ -37,16 +37,36 @@
   &__technologies {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     gap: 8px;
     margin: 0;
     padding: 0;
     list-style: none;
-    color: var(--text-secondary);
+
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      height: 36px;
+    }
 
     li:not(:last-child)::after {
       content: "·";
-      margin-left: 8px;
       color: var(--accent);
+      font-size: 18px;
+      line-height: 1;
+    }
+
+    img {
+      display: block;
+      width: 36px;
+      height: 36px;
+      object-fit: contain;
+    }
+
+    img[src$="logo_html5.webp"] {
+      transform: scale(1.2);
     }
   }
 }
